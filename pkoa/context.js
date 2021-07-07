@@ -9,6 +9,6 @@ module.exports={
         this.response.body = val
     },
     get method(){
-        this.request.method
+        return this.request.method
     }
 }
